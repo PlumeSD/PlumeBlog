@@ -1340,8 +1340,8 @@ canvas:not(#ribbon-canvas),
   --global-font-size: 14px;
   --global-bg: #fff;
   --font-color: #4c4948;
-  --hr-border: #48c5ff;
-  --hr-before-color: #00adfd;
+  --hr-border: #0facff;
+  --hr-before-color: #0072ad;
   --search-bg: #f6f8fa;
   --search-input-color: #4c4948;
   --search-result-title: #4c4948;
@@ -1435,7 +1435,7 @@ hr:hover:before {
 }
 hr:before {
   position: absolute;
-  top: -24px;
+  top: -21px;
   left: 5%;
   z-index: 1;
   color: var(--hr-before-color);
@@ -3956,7 +3956,7 @@ h1.page-title + .tag-cloud-list {
 #article-container.post-content h6:before {
   position: absolute;
   top: calc(50% - 7px);
-  color: #f47466;
+  color: #00628f;
   content: '\f52d';
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
