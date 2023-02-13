@@ -1,0 +1,17 @@
+/* 页面标题 */
+.page-title {
+    position: relative;
+    color: rgb(48, 185, 162);
+    /* opacity: 0.0; */
+    /* font-size: 30px; */
+    text-align: center;
+    
+}
+
+/* 默认生成的page更改大小 */
+#content-inner{
+    /* background-color:#cc1818; */
+    max-width: 1920px;
+    height: 1080px;
+}
+

@@ -1,0 +1,55 @@
+/* .page-title {
+    position: relative;
+    color: blue;
+} */
+
+span{
+    font-size: 14px;
+}
+
+.site-name{
+    font-size: 18.2px;
+}
+
+* {
+    box-sizing: border-box;
+    /* font-size: 0em; */
+}
+
+body {
+    margin: 0;
+}
+
+#iavzh6 {
+    width: 90%;
+}
+
+#igwmiz {
+    width: 85%;
+}
+
+#iud8fd {
+    width: 75%;
+}
+
+#ir2rsp {
+    width: 80%;
+}
+
+#iffubh {
+    width: 85%;
+}
+
+#ivb228 {
+    width: 75%;
+}
+
+[data-aos] {
+    opacity: 1 !important;
+    transform: translate(0px) scale(1) !important;
+}
+
+.pt-4.pb-4.text-muted.text-center.d-print-none {
+    height: 100px;
+    text-align: left;
+}
