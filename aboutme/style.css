@@ -1,0 +1,65 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\PlumeBlog\assets\css\APlayer.min.css"><script src="\PlumeBlog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>.g-container {
+    width: 240px;
+    height: 25px;
+    border-radius: 25px;
+    background: #eee;
+}
+.g-progress {
+    width: 50%;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background: #0f0;
+}
+
+/*技能条样式*/
+progress, progress[role] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background-size: auto;
+    height: 40px;
+    width: 100%;
+}
+
+.skill-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skill {
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.skill h4 {
+    color: #f3f3f3;
+    position: absolute;
+    left: 1em;
+    top:-1em;
+}
+
+.skill h2 {
+    color: #f3f3f3;
+    position: absolute;
+    right:1em;
+    top:-1em;
+}
+
+.skill ::-webkit-progress-value {
+    -webkit-animation: bar-fill 2s;
+    width: 0px;
+}
+
+.skill-1::-webkit-progress-value {
+    background: #00628f;
+}
+
+.skill-1::-moz-progress-bar {
+    background: #00628f;
+}
+
+
+
+
