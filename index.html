@@ -1,0 +1,375 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Plume的博客</title><meta name="author" content="Plume"><meta name="copyright" content="Plume"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#00628F"><meta property="og:type" content="website">
+<meta property="og:title" content="Plume的博客">
+<meta property="og:url" content="https://plumesd.github.io/PlumeBlog/index.html">
+<meta property="og:site_name" content="Plume的博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic.imgdb.cn/item/64eb3f07661c6c8e5492fd38.jpg">
+<meta property="article:author" content="Plume">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic.imgdb.cn/item/64eb3f07661c6c8e5492fd38.jpg"><link rel="shortcut icon" href="/PlumeBlog/yuImage/yu.jpg"><link rel="canonical" href="https://plumesd.github.io/PlumeBlog/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/PlumeBlog/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/PlumeBlog/',
+  algolia: undefined,
+  localSearch: {"path":"/PlumeBlog/search.xml","preload":true,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: Plume","link":"链接: ","source":"来源: Plume的博客","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体中文","cht_to_chs":"你已切换为简体中文","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#178f9d","bgDark":"#178f9d","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Plume的博客',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-05-17 09:10:54'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#00628F')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#00628F')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+document.addEventListener('pjax:send', () => {
+  Pace.restart()
+})
+</script><link rel="stylesheet" href="/PlumeBlog/yuCss/big-counter.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://pic.imgdb.cn/item/64eb3f07661c6c8e5492fd38.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/PlumeBlog/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/PlumeBlog/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/PlumeBlog/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/PlumeBlog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/PlumeBlog/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/PlumeBlog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/PlumeBlog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/PlumeBlog/" title="Plume的博客"><span class="site-name">Plume的博客</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/PlumeBlog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/PlumeBlog/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/PlumeBlog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/PlumeBlog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Plume的博客</h1><div id="site_social_icons"><a class="social-icon" href="mailto:plumesd@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/PlumeBlog/posts/498629140/" title="条形码">条形码</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-25T03:12:50.000Z" title="发表于 2023-08-25 11:12:50">2023-08-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/PlumeBlog/categories/%E7%BD%91%E7%BB%9C/">网络</a></span></div><div class="content">条形码一图说明
+部分前缀码690–695 中国
+490–499 日本
+460–469俄罗斯
+全部前缀码
+  点击展开折叠内容
+
+● 000–019美国和加拿大
+● 020–029限制分销
+● 030–039美国药品（国家药品代码）
+● 040–049在某地理区域内发布限制流通编号
+● 050–059保留供将来使用
+● 060–099美国和加拿大
+● 100–139美国
+● 200–299限制分销
+● 300–379法国和摩纳哥
+● 380保加利亚
+● 383斯洛文尼亚
+● 385克罗地亚
+● 387波斯尼亚和黑塞哥维那
+● 389黑山
+● 400–440德国
+● 450–459日本
+● 460–469俄罗斯
+● 470吉尔吉斯斯坦
+● 471台湾
+● 474爱沙尼亚
+● 475拉脱维亚
+● 476阿塞拜疆
+● 477立陶宛
+● 478乌兹别克斯坦
+● 479斯里兰卡
+● 480菲律宾
+● 481白俄罗斯
+● 482乌克兰
+● 484摩尔多瓦
+● 485亚美尼亚
+● 486格鲁吉亚
+● 487哈萨克斯坦
+● 488塔吉克斯坦
+● 489香港
+● 490–499日本
+● 500–509英国 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/PlumeBlog/posts/2226203566/" title="上网原则">上网原则</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-18T03:12:04.000Z" title="发表于 2023-08-18 11:12:04">2023-08-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/PlumeBlog/categories/%E7%BD%91%E7%BB%9C/">网络</a></span></div><div class="content">
+善于搜索引擎
+不要在垃圾堆找信息
+任何信息要交叉验证
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/PlumeBlog/posts/4088798008/" title="谷歌高级搜索">谷歌高级搜索</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-06-27T03:10:46.000Z" title="发表于 2023-06-27 11:10:46">2023-06-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/PlumeBlog/categories/%E7%BD%91%E7%BB%9C/">网络</a></span></div><div class="content">一、基本搜索：+，-，ORGoogle 无需用明文的+号来表示逻辑 “与” 操作，只要空格就可以了。
+
+示例：搜索所有包含关键词 “易筋经” 和“吸星 **”的中文网页  **
+**搜索：“易筋经 吸星”
+结果：已搜索有关易筋经 吸星的中文 (简体) 网页。共约有 726 项查询结果，这是第 1-10 项。搜索用时 0.13 秒。
+注意：文章中搜索语法外面的引号仅起引用作用，不能带入搜索栏内。
+
+Google 用减号-表示逻辑 “非” 操作。
+
+示例：搜索所有包含 “易筋经” 而不含 “吸星” 的中文网页
+搜索：“易筋经 - 吸星”
+结果：已搜索有关易筋经 - 吸星的中文 (简体) 网页。共约有 5,440 项查询结果，这是第 1-10 项。搜索用时 0.13 秒。
+注意：这里的 “+” 和“-”号，是英文字符，而不是中文字符的 “＋” 和“－”。 此外，操作符与作用的关键字之间，不能有空格。比如 “易筋经 – 吸星”，搜索引擎将视为逻辑“与” 操作，中间的 “-” 被忽略。
+
+Google 用大写的 “OR” 表示逻辑 “或” 操作。但是，关键字为中文的或查询似乎还有 BUG，无法得 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/PlumeBlog/posts/1842515611/" title="十种杠精常用手段">十种杠精常用手段</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-06-10T03:09:57.000Z" title="发表于 2023-06-10 11:09:57">2023-06-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/PlumeBlog/categories/%E7%BD%91%E7%BB%9C/">网络</a></span></div><div class="content">
+偷换概念（Equivocation）：他们利用词、句上可能出现的歧义来歪曲论据，进行诡辩。A：“这个大米不好，煮的稀饭不够黏。”B：“502黏，你怎么不去挖一勺？”
+
+红鲱鱼谬误（Red Herring Fallacy）：即转移话题，提出不相干的话题来转移原本的讨论焦点。A：“昨天领养了一只流浪狗。”B：“这么热心肠怎么没见你去福利院照顾老人？”
+
+稻草人谬误（Straw Person）：故意曲解对方的原意，使其容易受到攻击。A： “谈了恋爱的人应该与其他异性保持一定的距离。”B：“那还不许我跟别人讲话了啊？”
+
+人身攻击（Ad Hominem）：他们避开事件本身的因果联系不谈，为回避自己的逻辑弱点，选择通过批评或抵毁对方的人格和品质来反驳某项论证；“班上那么多人，他不欺负别人就只欺负你？肯定是因为你做了什么坏事！”
+
+滑坡谬误（Slippery Slope）：使用一连串连续的因果关系，却又夸大每个环节之间因果关系的强度，进而得到不合理的结论。“你现在不好好学习，就上不了好高中，上不了好大学，找不到工作你就只能扫大街，你难道想一辈子扫大街吗？”
+
+假两难悼论（Pseudo-Dilem ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/PlumeBlog/posts/450215437/" title="健身相关">健身相关</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-05-15T03:09:05.000Z" title="发表于 2023-05-15 11:09:05">2023-05-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/PlumeBlog/categories/%E5%81%A5%E8%BA%AB/">健身</a></span></div><div class="content">健身基础
+健身不是挨饿，需要吃饱吃好健康干净的饮食。
+减肥就是制造热量缺口。
+
+健身零碎信息
+腰部有问题如何训练：能躺着练就别坐着练，能坐着练就别站着练。做固定器械的运动。
+所有需要卧推凳的动作可以用俯卧撑等其它动作代替。
+主要含咖啡因的食物对减脂是有用的 比如美式咖啡，那种便宜的咖啡没用。网上卖的什么左旋等都是没用的。
+不管健不健身，饮食没问题就不会是个大胖子。
+做有氧的方法爬楼梯、爬坡、骑单车。
+健身减肥一定是从肚子开始减，很明显裤腰减少了。但是也因为肚子储存脂肪最多也是最后才能减到理想状态的。
+健身不能闷头上重量，我的目的最开始是为了强生健体，然后也要身体好看，只闷头上重量什么都不管肌肉发展长难看很难找补回来的。
+饮食要少食多餐易于营养吸收，不要把营养堆到一顿饭吃，能吃的下也吸收不了。
+健身三大项是要训练，但是新手最好是从固定器械开始锻炼，找到发力感，找到正确的运动动作，避免出现锻炼导致身体出问题。因为新手三大项锻炼导致腰突、膝盖问题的人多的是。
+体脂秤的测量数据仅供参考，健身房上万的体脂秤也是如此。
+正常吃饭才能正常减肥。
+降低体脂率才能看到腹肌。
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/PlumeBlog/posts/2212294583/" title="贴牌品牌汇总">贴牌品牌汇总</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-05-13T03:02:23.000Z" title="发表于 2023-05-13 11:02:23">2023-05-13</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/PlumeBlog/categories/%E7%94%9F%E6%B4%BB/">生活</a></span></div><div class="content">贴牌品牌：
+
+修正药业
+仁和药业
+七匹狼
+恒源祥
+荣事达
+南极人
+浪莎
+花花公子
+北极绒
+飞利浦
+雅鹿
+罗蒙
+拉夏贝尔
+南京同仁堂
+志高
+俞兆林
+啄木鸟
+海澜之家
+猫人
+圣吉卡丹
+卡帝乐鳄鱼
+
+待确定品牌：
+
+六必居
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/PlumeBlog/posts/851038288/" title="Idea常用快捷键">Idea常用快捷键</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-08-01T00:52:32.000Z" title="发表于 2021-08-01 08:52:32">2021-08-01</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/PlumeBlog/categories/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/">软件开发</a></span></div><div class="content">IDEA 常用快捷键（keymap） ## CTRL+ | 功能 | 快捷键CTRL+功能快捷键删除当前行Ctrl + Y复制当前行，直接在下一行复制出当前行Ctrl + D（Duplicate 复制）选中文本，连续按可以扩大选中范围（以单词为单位）Ctrl + W在当前行上面插入一行空行。注意：需要在行首使用该快捷键Ctrl + Enter删除单词，可以一下字删除整个单词Ctrl + Backspace将当前方法块代码展开 / 折叠Ctrl + "+ / -"添加注释和取消注释，【第一次是添加注释，第二次是取消注释】Ctrl + /添加 / 取消多行注释，【第一次是添加注释，第二次是取消注释】Ctrl + shift + /在当前文件中查找文本Ctrl + F（Find 查找）查找并替换文本，支持多行查找，或者只在代码中查找，或者只在注释中查找，或者使用正则表达式查找Ctrl + R（Replace 替换）快速重写基类或者接口中的方法Ctrl + O（Override 重写）提示代码，在输入代码时可以提示关键字Ctrl + 空格提示代码，在输入代码时可以提示快捷键Ctrl + J显示 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/PlumeBlog/posts/3027589083/" title="ADB常用指令">ADB常用指令</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-05-15T03:14:19.000Z" title="发表于 2020-05-15 11:14:19">2020-05-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/PlumeBlog/categories/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/">软件开发</a></span></div><div class="content">说明以下是常用ADB指令
+更多ADB指令点击链接
+配置环境变量
+设置 adb 变量值
+
+我的电脑 -&gt; 右击属性 -&gt; 高级系统设置 -&gt; 系统变量 -&gt; 新建 -&gt; 变量名 -&gt; 变量值 -&gt; 完成步骤
+
+
+设置 path 变量值
+
+选中 path -&gt; 编辑 -&gt; 新建 -&gt; % 变量名 % -&gt; 确定 -&gt; 全部完成
+
+
+
+adb 常用指令
+adb start-server
+
+启动 ADB 服务
+
+
+adb kill-server
+
+关闭 ADB 服务
+
+
+adb devices
+
+列出所有设备
+
+
+adb connect 192.168.100.1:5555
+
+connect 表示连接到设备192.168.100.1:5555 表示设备地址 (address) 和端口号(dport)
+
+
+adb disconnect
+
+断开所有连接
+
+
+adb reboot
+
+重启设备
+
+
+adb reboot recovery
+
+重启设备到 Recovery
+
+
+adb reboot bootloader
+
+也就是常说的 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/PlumeBlog/posts/4119364352/" title="烹饪">烹饪</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-12-31T16:00:00.000Z" title="发表于 2020-01-01 00:00:00">2020-01-01</time></span></div><div class="content">
+内容更新时间：20230815
+
+完成一百道菜的一个小目标。开始第二个小目标。🍖
+      [{"url":"https://pic.imgdb.cn/item/64eb47da661c6c8e54954b9d.jpg","alt":""},{"url":"https://pic.imgdb.cn/item/64eb47da661c6c8e54954b8d.jpg","alt":""},{"url":"https://pic.imgdb.cn/item/64eb47da661c6c8e54954b7d.jpg","alt":""},{"url":"https://pic.imgdb.cn/item/64eb47da661c6c8e54954b71.jpg","alt":""},{"url":"https://pic.imgdb.cn/item/64eb47d4661c6c8e54954999.jpg","alt":""},{"url":"https://pic.imgdb.cn/item/64eb47d4661c6c8e54954985.jpg","alt":""},{"url" ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://pic.imgdb.cn/item/64eb3f07661c6c8e5492fd38.jpg" onerror="this.onerror=null;this.src='/PlumeBlog/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Plume</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/PlumeBlog/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/PlumeBlog/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/PlumeBlog/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="mailto:plumesd@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">如果遇到内容无法显示，可以尝试强制刷新浏览器缓存再进行浏览！欢迎收藏。</div></div><div class="sticky_layout"><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/PlumeBlog/categories/%E5%81%A5%E8%BA%AB/"><span class="card-category-list-name">健身</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/PlumeBlog/categories/%E7%94%9F%E6%B4%BB/"><span class="card-category-list-name">生活</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/PlumeBlog/categories/%E7%BD%91%E7%BB%9C/"><span class="card-category-list-name">网络</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/PlumeBlog/categories/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/"><span class="card-category-list-name">软件开发</span><span class="card-category-list-count">2</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/PlumeBlog/tags/%E8%B4%B4%E7%89%8C/" style="font-size: 1.15em; color: rgb(139, 108, 197)">贴牌</a><a href="/PlumeBlog/tags/%E5%81%A5%E8%BA%AB/" style="font-size: 1.15em; color: rgb(81, 90, 84)">健身</a><a href="/PlumeBlog/tags/%E7%BD%91%E7%BB%9C/" style="font-size: 1.45em; color: rgb(44, 196, 164)">网络</a><a href="/PlumeBlog/tags/%E7%83%B9%E9%A5%AA/" style="font-size: 1.15em; color: rgb(29, 117, 125)">烹饪</a><a href="/PlumeBlog/tags/%E5%BC%80%E5%8F%91/" style="font-size: 1.3em; color: rgb(94, 76, 77)">开发</a><a href="/PlumeBlog/tags/%E5%AE%89%E5%8D%93/" style="font-size: 1.15em; color: rgb(136, 150, 27)">安卓</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/PlumeBlog/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/PlumeBlog/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/PlumeBlog/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/PlumeBlog/archives/2021/08/"><span class="card-archive-list-date">八月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/PlumeBlog/archives/2020/05/"><span class="card-archive-list-date">五月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/PlumeBlog/archives/2020/01/"><span class="card-archive-list-date">一月 2020</span><span class="card-archive-list-count">1</span></a></li></ul></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By Plume</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/PlumeBlog/js/utils.js"></script><script src="/PlumeBlog/js/main.js"></script><script src="/PlumeBlog/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"><script>(() => {
+  const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaid.length === 0) return
+  const runMermaid = () => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    Array.from($mermaid).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
+        })
+      }
+
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
+  }
+
+  const loadMermaid = () => {
+    window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+  }
+
+  btf.addGlobalFn('themeChange', runMermaid, 'mermaid')
+
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/PlumeBlog/js/search/local-search.js"></script></div></div></body></html>
